@@ -15,3 +15,25 @@
         color: $purple;
     }
 }
+
+.overall-budget {
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    
+    h2 {
+        font-family: 'Lato';
+        font-weight: 200;
+        font-size: 5em;
+        color: $beige-light;
+        &.green {
+            color: lighten($green , $amount: 12%);
+        }
+        &.red {
+            color: lighten($pink, $amount: 12%)
+        }
+    }
+}
