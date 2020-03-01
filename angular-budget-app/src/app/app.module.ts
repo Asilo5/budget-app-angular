@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MainPageComponent } from './main-page/main-page.component';
+import { AddBudgetFormComponent } from './add-budget-form/add-budget-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainPageComponent,
+    AddBudgetFormComponent
   ],
   imports: [
     BrowserModule,

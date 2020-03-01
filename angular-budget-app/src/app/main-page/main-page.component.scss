@@ -1,0 +1,39 @@
+@import '../../main-styles.scss';
+
+.nav-bar {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(70deg, rgb(124, 226, 120), rgb(100, 230, 165));
+
+    h1 {
+        font-family: 'Lato';
+        font-size: 2em;
+        letter-spacing: 1px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $purple;
+    }
+}
+
+.overall-budget {
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    
+    h2 {
+        font-family: 'Lato';
+        font-weight: 200;
+        font-size: 5em;
+        color: $beige-light;
+        &.green {
+            color: lighten($green , $amount: 12%);
+        }
+        &.red {
+            color: lighten($pink, $amount: 12%)
+        }
+    }
+}
