@@ -12,7 +12,7 @@ form {
     }
 
     input {
-        font-size: 20px;
+        font-size: 25px;
         margin: 5px;
         border: transparent;
         border-radius: 5px;
@@ -26,5 +26,14 @@ form {
         font-size: 20px;
         border: none;
         border-radius: 5px;
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+        border: 1px solid $submit-green;
+        cursor: pointer;
+        &:hover {
+          background-color: $submit-green;
+          color: white;
+        }
     }
 }
