@@ -1,0 +1,39 @@
+@import '../../main-styles.scss';
+
+form {
+   display: flex;
+   justify-content: center;
+    input:first-child {
+        width: 20%;
+    }
+
+    input:nth-child(2) {
+        width: 6 0%;
+    }
+
+    input {
+        font-size: 25px;
+        margin: 5px;
+        border: transparent;
+        border-radius: 5px;
+        background-color: $beige-light;
+        &:hover {
+            border: 1px solid rgb(83, 79, 79);
+        }
+    }
+
+    button {
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+        border: 1px solid $submit-green;
+        cursor: pointer;
+        &:hover {
+          background-color: $submit-green;
+          color: white;
+        }
+    }
+}
