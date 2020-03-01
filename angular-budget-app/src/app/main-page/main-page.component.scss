@@ -1,0 +1,17 @@
+@import '../../main-styles.scss';
+
+.nav-bar {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(70deg, rgb(124, 226, 120), rgb(100, 230, 165));
+
+    h1 {
+        font-family: 'Lato';
+        font-size: 2em;
+        letter-spacing: 1px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $purple;
+    }
+}
