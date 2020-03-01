@@ -1,0 +1,11 @@
+@import '../../../main-styles.scss';
+
+.budget {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    border-radius: 5px;
+    background-color: $beige-light;
+    padding: 5px;
+    margin-top: 10px;
+}
