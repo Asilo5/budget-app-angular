@@ -8,4 +8,20 @@
     background-color: $beige-light;
     padding: 5px;
     margin-top: 10px;
+
+}
+
+.income {
+    border: 1px solid $green;
+    p {
+        color: $green;
+    }
+}
+
+.expense {
+    border: 1px solid $pink;
+    p {
+        font-weight: bold;
+        color: $pink;
+    }
 }

@@ -1,12 +1,12 @@
 <section class='expenses-income-section'>
     <section class='income'>
         <h2>Income</h2>
-        <app-budget-input></app-budget-input>
-        <app-budget-input></app-budget-input>
+        <app-budget-input [isIncome]='true'></app-budget-input>
+        <app-budget-input [isIncome]='true'></app-budget-input>
     </section>
 
     <section class='expenses'>
         <h2>Expenses</h2>
-        <app-budget-input></app-budget-input>
+        <app-budget-input [isIncome]='false'></app-budget-input>
     </section>
 </section>
