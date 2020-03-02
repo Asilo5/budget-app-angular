@@ -1,6 +1,6 @@
 # Budget Buddy
 
-.. 
+App that allows you to budget in regards of how much income you add or expenses you subtract.
 
 
 ## View Budget Buddy locally in your computer
