@@ -1,0 +1,33 @@
+@import '../../main-styles.scss';
+ 
+ .expenses-income-section {
+     display: flex;
+     justify-content: space-between;
+     width: 50em;
+
+     .income, .expenses {
+       display: flex;
+       flex-direction: column;
+       flex-basis: 0;
+       flex-grow: 1;
+
+       h2 {
+           font-family: 'Lato';
+           font-size: 2em;
+           font-weight: bold;
+           text-transform: uppercase;
+       }
+     }
+
+     .income {
+        h2 {
+          color: $green;
+        }
+     }
+
+     .expenses {
+        h2 {
+          color: $pink
+        }
+     }
+ }
