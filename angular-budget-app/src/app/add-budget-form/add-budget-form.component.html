@@ -1,4 +1,4 @@
-<form>
+<form #itemForm='ngForm' (ngSubmit)='onSubmit(itemForm)' >
     <input type='number' placeholder='Amount' />
     <input type='text ' placeholder='Item' /> 
     <button>ADD</button>
