@@ -7,9 +7,9 @@
 </section>
 
 <section class='budget-form'>
-    <app-add-budget-form></app-add-budget-form>
+    <app-add-budget-form (formSubmit)='addBudgetItem($event)'></app-add-budget-form>
 </section>
 
 <section class='budget-list'>
-   <app-budget-list></app-budget-list>
+   <app-budget-list [budgetList]='budgetList' ></app-budget-list>
 </section>

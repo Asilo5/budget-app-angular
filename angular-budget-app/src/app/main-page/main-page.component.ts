@@ -8,7 +8,7 @@ import { BudgetList } from 'src/controller/model/budget-list.model';
 })
 export class MainPageComponent implements OnInit {
 
-  budgetItems: BudgetList[] = new Array<BudgetList>();
+  budgetList: BudgetList[] = new Array<BudgetList>();
 
   constructor() { }
 
@@ -16,7 +16,8 @@ export class MainPageComponent implements OnInit {
   }
 
   addBudgetItem(newBudget: BudgetList) {
-    this.budgetItems.push(newBudget);
+    this.budgetList.push(newBudget);
+    console.log(this.budgetList)
   }
 
 }
