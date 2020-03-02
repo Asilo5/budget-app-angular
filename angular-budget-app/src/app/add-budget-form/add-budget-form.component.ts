@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { BudgetList } from '../../controller/model/budget-list.model';
 
 @Component({
   selector: 'app-add-budget-form',
@@ -7,6 +8,8 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./add-budget-form.component.scss']
 })
 export class AddBudgetFormComponent implements OnInit {
+
+  @Input() item: BudgetList = new BudgetList('', null);
 
   constructor() { }
 
