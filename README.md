@@ -1,6 +1,6 @@
 # Budget Buddy
 
-App that allows you to budget in regards of how much income you add or expenses you subtract.
+App that allows you to budget in regards of how much income you add or expenses you subtract. This was my first time working with Angular, and I found it interesting to see how big it was as well as how useful since it came with most of the packages i needed.
 
 
 ## View Budget Buddy locally in your computer
