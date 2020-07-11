@@ -1,8 +1,11 @@
 <section class='expenses-income-section'>
     <section class='income'>
         <h2>Income</h2>
-        <app-budget-input [isIncome]='true'></app-budget-input>
-        <app-budget-input [isIncome]='true'></app-budget-input>
+        <section *ngFor='let item of budgetList' >
+            <app-budget-input *ngIf='item.amount >= 0' 
+                              [isIncome]='true' >            
+            </app-budget-input>
+        </section>
     </section>
 
     <section class='expenses'>
